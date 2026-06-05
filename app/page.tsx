@@ -136,8 +136,8 @@ export default function Home() {
   <Image
     src="/instagram.png"
     alt="instagram"
-    width={28}
-    height={28}
+    width={32}
+    height={32}
   />
 
   인스타그램
