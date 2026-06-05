@@ -129,12 +129,19 @@ export default function Home() {
         </a>
 
         <a
-          href={links.instagram}
-          target="_blank"
-          className="backdrop-blur-md bg-white/10 border border-white/10 py-4 rounded-2xl text-center transition duration-200 active:scale-95 hover:bg-white/20 shadow-xl"
-        >
-          📷 인스타그램
-        </a>
+  href="https://instagram.com/ban_di_odo"
+  target="_blank"
+  className="bg-neutral-800 py-4 rounded-2xl flex items-center justify-center gap-2 hover:bg-neutral-700 transition"
+>
+  <Image
+    src="/instagram.png"
+    alt="instagram"
+    width={18}
+    height={18}
+  />
+
+  인스타그램
+</a>
 
         <a
           href={`tel:${links.phone}`}
