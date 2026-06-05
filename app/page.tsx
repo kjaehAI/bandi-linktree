@@ -144,11 +144,11 @@ export default function Home() {
         </a>
 
         <a
-          href={`sms:${links.phone}`}
-          className="backdrop-blur-md bg-white/10 border border-white/10 py-4 rounded-2xl text-center transition duration-200 active:scale-95 hover:bg-white/20 shadow-xl"
-        >
-          💬 매입 문의 문자
-        </a>
+  href={`sms:${links.phone}?body=안녕하세요 반디오디오 청음 예약 문의드립니다.`}
+  className="backdrop-blur-md bg-white/10 border border-white/10 py-4 rounded-2xl text-center transition duration-200 active:scale-95 hover:bg-white/20 shadow-xl"
+>
+  ☕ 방문 청음 예약
+</a>
 
         <a
           href={links.map}
