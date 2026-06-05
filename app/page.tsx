@@ -160,9 +160,21 @@ export default function Home() {
 
       </div>
 
-      <p className="mt-8 text-neutral-600 text-xs tracking-[0.25em] z-10">
-        BANDI AUDIO © 2026
-      </p>
+      <div className="text-neutral-600 text-xs mt-8 text-center space-y-1">
+  <p>BANDI AUDIO © 2026</p>
+
+  <p>
+    BGM: J.S. Bach - Goldberg Variations
+  </p>
+
+  <p>
+    Performed by 임윤찬
+  </p>
+
+  <p>
+    Purchased via Melon
+  </p>
+</div>
 
     </main>
   );
