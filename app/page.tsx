@@ -7,7 +7,7 @@ const links = {
   naverCafe: "https://cafe.naver.com/bandiaudio",
   instagram: "https://instagram.com/",
   phone: "01037775290",
-  map: "https://map.naver.com/p/entry/place/1962921272?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202606060215&locale=ko&svcName=map_pcv5",
+  map: "https://naver.me/F5a4k8RU",
 };
 
 export default function Home() {
