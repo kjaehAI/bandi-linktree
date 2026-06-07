@@ -87,7 +87,7 @@ export default function Home() {
       </h1>
 
       <p className="text-neutral-300 mb-2 text-center text-lg z-10">
-        오래된 음악의 감성을 다시 깨우다
+      음악의 감성을 다시 깨우다
       </p>
 
       <p className="text-neutral-500 text-sm mb-5 text-center tracking-[0.2em] uppercase z-10">
@@ -151,10 +151,10 @@ export default function Home() {
         </a>
 
         <a
-  href={`sms:${links.phone}?body=안녕하세요 반디오디오 청음 예약 문의드립니다.`}
+  href={`sms:${links.phone}?body=안녕하세요 제품문의드립니다.`}
   className="backdrop-blur-md bg-white/10 border border-white/10 py-4 rounded-2xl text-center transition duration-200 active:scale-95 hover:bg-white/20 shadow-xl"
 >
-  ☕ 방문 청음 예약
+  ☕ 제품문의하기
 </a>
 
         <a
